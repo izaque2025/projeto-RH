@@ -126,9 +126,11 @@ padding: 20px;
 
 .her2{
   background-image:url(https://www.galiciaeducacao.com.br/wp-content/uploads/2023/03/gestao-tecnologica.jpg)  ;
-  height: 400px;
+  height: 600px;
   width: 100%;
- padding: 100px 20px;
+ background-size: cover;
+    border-radius: 10px;
+    background-position: center,
   
 
 }
@@ -136,7 +138,7 @@ padding: 20px;
 .her2 h2{
   position: relative;
  text-align: center;
- top: 100px;
+ top: 250px;
  font-size: 35px;
  text-shadow: 2px 2px 5px rgb(148, 122, 122);
  
@@ -151,10 +153,14 @@ padding: 20px;
   background-color: chocolate;
   
 }
+
 footer{
   text-align: center;
   background-color: black;
   color: white;
+}
+@media (max-width:1600px) {
+  
 }
 
 @media  (max-width:800px) {
